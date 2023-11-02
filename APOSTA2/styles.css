@@ -1,0 +1,382 @@
+/* Estilos generales del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000216;
+}
+
+/* Estilos para los botones de texto */
+.is-texto {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 0 5px;
+    font-size: 16px;
+    color: white;
+    border-bottom: 1px solid #999;
+}
+
+.r-texto {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 0 5px;
+    font-size: 16px;
+    color: white;
+}
+
+/* Estilos para los grupos de entrada */
+.grupo-input {
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Estilos para los campos de texto */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilos para el grupo de checkbox y olvido de contraseña */
+.checkbox-olvidado {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.checkbox-olvidado a {
+    text-decoration: none;
+    color: #555;
+    margin-left: 20px;
+}
+
+/* Estilos para el botón de enviar el formulario de inicio de sesión */
+#enviar-login {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f40404;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.checkbox-olvidado label {
+    color: white; 
+
+}
+
+.logo{
+    height: 200px;
+    width: 200px;
+    background-image: url(IMG/logo.png);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 70px;
+    margin-top: 40px;
+}
+
+/* EMPIEZA ESTILOS SIMPLE.HTML */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000216;
+}
+
+.h1-aposta2{
+    color: white;
+    font-size: medium;
+}
+
+.h2-lpf{
+    color: white;
+    font-size: medium;
+    border-bottom: 5px solid #999;
+}
+
+.simple{
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 0 5px;
+    font-size: 16px;
+    color: white;
+    
+    /* transition: border-bottom 0.3s; */
+}
+
+.simple.equipo-1{
+    position: absolute;
+    top: 100px;
+    left: 20px;
+}
+
+.simple.equipo-2{
+    position: absolute;
+    top: 100px;
+    left: 170px;
+}
+
+.simple.empate{
+    position: absolute;
+    top: 130px;
+    left: 107px;
+}
+
+.combinada{
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 0 5px;
+    font-size: 16px;
+    color: white;
+}
+
+.partidos {
+    text-align: center;
+    margin-top: 1px;
+}
+
+
+.contenedor1{
+    border: 2px white solid;
+    height: 200px;
+    width: 300px;
+    background-color: gray;
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.equipo1, .equipo2 {
+    position: absolute; 
+    background-size: cover;
+}
+
+.equipo1{
+    top: 50px;
+    background-image: url(IMG/LOGOCOLON.png);
+    background-position: center;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    left: 50px;
+}
+
+.equipo2{
+    background-image: url(IMG/Union_de_Santa_Fe.png);
+    background-position: center;
+    background-size: contain;
+    height: 44px;
+    width: 40px;
+    left: 200px;
+    top: 60px;
+}
+
+.equipo3{
+    background-image: url(IMG/Escudo_del_Club_Atlético_Boca_Juniors.svg.png);
+    background-position: center;
+    background-size: contain;
+    height: 46px;
+    width: 40px;
+    position: absolute;
+    top:60px;
+    left: 50px;
+}
+
+.equipo4{
+    background-image: url(IMG/Logo_River_Plate.png);
+    background-position: center;
+    background-size: contain;
+    height: 46px;
+    width: 39px;
+    position: absolute;
+    left: 200px;
+    top: 60px;
+}
+
+.equipo5{
+    background-image: url(IMG/lanus_logo.png);
+    background-position: center;
+    background-size: contain;
+    height: 44px;
+    width: 45px;
+    position: absolute;
+    top:60px;
+    left: 50px;
+}
+
+.equipo6{
+    background-image: url(IMG/Escudo_Vélez_Sarsfield.png);
+    background-position: center;
+    background-size: contain;
+    height: 44px;
+    width: 45px;
+    position: absolute;
+    left: 200px;
+    top: 60px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000216; 
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbar-button {
+    border: 2px white solid;
+    background: none;
+    padding: 20px;
+    font-size: 16px;
+    color: white;
+    width: 33%;
+}
+
+.navbar-button:hover{
+    background-color: #555;
+}
+
+/* Estilos combinadas.html */
+
+.ingresemonto {
+    color: white;
+    margin-top: 20px;
+}
+
+.realizarapuesta {
+    padding: 10px 20px;
+    background-color: #00cc00;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.boton-linea{
+    height: 60px;
+    width: 28%;
+    padding: 20px 10px ;
+    margin-top: 10px;
+    border-bottom: none;
+    border: burlywood 2px solid;
+    border-radius: 15px;
+}
+
+.boton-linea:active{
+    border: 2px white solid;
+    /* transform: scale(1.1); */
+}
+
+.partidos{
+    padding-top: 20px;
+    
+}
+
+.contenedormonto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.ingresemonto {
+    color: white;
+    font-weight: bold;
+}
+
+#monto{
+    padding: 10px 25px;
+    border-radius: 15px;
+}
+
+.realizarapuesta {
+    padding: 15px 100px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+.wallet {
+    display: flex;
+    align-items: center;
+    color: white; /* Establece el color del texto en blanco */
+}
+
+.wallet i {
+    margin-right: 5px; /* Espacio entre el icono y el saldo */
+    color: white; /* Establece el color del icono en blanco */
+}
+
+.balance {
+    font-weight: bold; /* Texto en negrita */
+    font-size: 1.2em; /* Tamaño del número */
+    color: white; /* Establece el color del número en blanco */
+}
+.informacion-apuesta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.cuota-total,
+.ganancia-potencial {
+    color: white;
+}
+
+.cuota-numero,
+.ganancia-numero {
+    font-weight: bold;
+    color: white;
+}
+.imagen-ok{
+    background-image: url(IMG/ok.png);
+    background-size: contain;
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+
+.boton-volver{
+    position: relative;
+    width: 261px;
+    height: 74px;
+    top: 600px;
+    background-color: #2ca731;
+    border-radius: 24px;
+}
+
+.h1-apuesta-realizada{
+    position: relative;
+    font-family: "Exo-SemiBold", Helvetica;
+    color: #2ca731;
+    font-size: 25px;
+    line-height: normal;
+    display: inline;
+    top: 100px;
+}
